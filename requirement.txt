@@ -1,0 +1,32 @@
+aiogram==3.19.0
+aiosqlite
+python-dotenv
+
+
+-------------------------------
+/consulting_bot
+│── /bot
+│   │── __init__.py
+│   │── config.py
+│   │── database.py
+│   │── middlewares.py
+│   │── keyboards.py
+│   │── utils.py
+│   │── /handlers
+│   │   │── __init__.py
+│   │   │── start.py
+│   │   │── referral.py
+│   │   │── consulting.py
+│   │   │── payment.py
+│   │   │── admin.py
+│   │── /services
+│   │   │── __init__.py
+│   │   │── referral_service.py
+│   │   │── consulting_service.py
+│── /data
+│   │── database.db
+│── /logs
+│   │── bot.log
+│── main.py
+│── requirements.txt
+│── README.md
